@@ -159,7 +159,7 @@ console.log(maxOfTwo(45, 89));
 console.log(fullName("Rounak", "Lakhara"));
 
 
-// Q16  (NOTE: Claude ne likha hai)
+// Q16  
 function getGrade(marks) {
   if (marks >= 90) return "A+";
   else if (marks >= 75) return "A";
@@ -173,7 +173,7 @@ console.log(getGrade(68));
 console.log(getGrade(32));
 
 
-// Q17  (NOTE: Claude ne likha hai) - Arrow functions
+// Q17  
 const squareArrow = (n) => n * n;
 const addArrow = (a, b) => a + b;
 const greetArrow = name => `Hello ${name}!`;
@@ -197,7 +197,7 @@ console.log(celsiusToFahrenheit(25));
 console.log(fahrenheitToCelsius(32));
 console.log(fahrenheitToCelsius(77));
 
-// Q19  (NOTE: Claude ne likha hai) - Default parameters
+// Q19 
 function calculateArea(length, width = length) {
   return length * width;
 }
@@ -206,7 +206,7 @@ console.log(calculateArea(5, 4));
 console.log(calculateArea(6));
 
 
-// Q20  (NOTE: Claude ne likha hai) - Callback function
+// Q20
 function processNumber(num, callback) {
   return callback(num);
 }
