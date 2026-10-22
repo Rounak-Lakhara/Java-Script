@@ -1,7 +1,5 @@
 # JavaScript for Backend - Semester 1 (Assignments)
 
-CodingGita x SU, Semester 1 ke saare JavaScript assignments topic-wise folders me arranged.
-Har file ko Node.js se seedha run kiya ja sakta hai.
 
 ## Repo Structure
 
@@ -154,19 +152,7 @@ Advantages: reusability, maintainability, modularity, avoids duplication (DRY).
 
 Yaad rakho: declaration hoist hoti hai, expression nahi. Return na likho to `undefined` milta hai.
 
----
 
-## Kya Aapka Hai, Kya Add Kiya Gaya
-
-- **Aapka code:** variables, arithmetic / assignment / comparison, logical AND aur OR, saare for-loop sections, patterns 1-12, functions Q1-Q15 aur Q18. Original code hi hai, bas commented code uncomment karke topic-wise files me rakha hai.
-- **Bugs fix kiye:**
-  - `06-for-loop-practice-set.js` Q7: `count` ko `counts` kiya.
-  - `06-for-loop-practice-set.js` Q17: `fiib` typo ko `fib` kiya.
-  - `02-break.js` Q2: `prompt()` Node me nahi chalta, isliye inputs array se simulate kiye (browser wali line comment me hai).
-  - Loop questions `{ }` blocks me hain taaki variable names na takrayein.
-- **Claude ne add kiya** (files me "Claude ne likha hai" note hai): logical OR ke 2 extra questions aur poora NOT `!` section, `08-while-loop.js`, `09-do-while-loop.js`, aur functions Q16, Q17, Q19, Q20.
-
-> Added questions mere guess hain. Apni assignment sheet se match kar lena, jo alag ho use replace kar dena.
 
 ## Author
 
